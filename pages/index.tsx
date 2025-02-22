@@ -18,8 +18,6 @@ export default function Home() {
   );
   // console.log(bgGradient);
 
-  const [temperature, setTemperature] = useState<string | null>(null);
-
   useEffect(() => {
     weatherData();
   }, [serachquery]);
@@ -55,7 +53,7 @@ export default function Home() {
   };
 
   return (
-    <main className="w-full h-auto  "> 
+    <main className="w-full h-auto  ">
       <div className="max-w-2xl mx-auto select-none ">
         <div className="flex justify-center items-center flex-col pt-20  mx-10 md:pt-52 mn">
           <h1 className="text-3xl md:text-6xl font-bold mb-3 text-white">
@@ -81,7 +79,6 @@ export default function Home() {
           </div>
           {weather && <WeatherCard weather={weather} />}
           {/* แสดงอุณหภูมิที่คำนวณแล้ว */}
-          {temperature && <p>Temperature: {temperature}</p>}
         </div>
       </div>
     </main>
