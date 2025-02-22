@@ -19,7 +19,7 @@ npm run dev
 
 
 ### Live Demo 
--https://werapol-font-end-test.vercel.app/
+https://weather-two-nu-99.vercel.app/
 
 ## Exam
 - นำ้ข้อมูลจาก API ที่เกี่ยวกับสถาพอากาศมาแสดง
