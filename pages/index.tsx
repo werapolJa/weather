@@ -14,7 +14,7 @@ export default function Home() {
   const [searchInput, setSearchInput] = useState<string>("");
   const [serachquery, seSerachquery] = useState<string>("thailand");
   const [bgGradient, setBgGradient] = useState(
-    "bg-gradient-to-b from-rose-300 to-purple-300"
+    "bg-rose-300"
   );
   // console.log(bgGradient);
 
@@ -78,7 +78,7 @@ export default function Home() {
             </button>
           </div>
           {weather && <WeatherCard weather={weather} />}
-          {/* แสดงอุณหภูมิที่คำนวณแล้ว */}
+         
         </div>
       </div>
     </main>
